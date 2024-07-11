@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#98d8ff  "
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="2dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/exit1"
+                android:src="@drawable/exit_icon"
+                android:layout_gravity="start"
+                android:layout_marginVertical="16dp"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/exit"
+                android:gravity="center"
+                android:text="TEST"
+                android:textColor="#009688"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage">
+
+            </TextView>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:ignore="Suspicious0dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt1"
+
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="16dp"
+
+                android:layout_weight="1"
+                app:cardCornerRadius="24dp"
+                tools:ignore="NestedWeights,Orientation">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/matematika_2"
+                            android:layout_marginTop="15dp">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="MATEMATIKA"
+                            android:textColor="#4CAF50"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="16dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="16dp"
+
+                tools:ignore="Orientation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/fizika_2"
+
+                            android:layout_marginTop="15dp"
+                            tools:ignore="UseAppTint">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="FIZIKA"
+                            android:textColor="#4CAF50"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            tools:ignore="Suspicious0dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt3"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="16dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="16dp"
+                tools:ignore="Orientation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ingiliz_tili"
+
+                            android:layout_marginTop="15dp"
+                            tools:ignore="UseAppTint">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="INGILIZ TILI"
+                            android:textColor="#998B97"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="16dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="16dp"
+
+                tools:ignore="Orientation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/bialogiya"
+                            android:layout_marginTop="15dp">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="BIALOGIYA"
+                            android:textColor="#009688"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            tools:ignore="Suspicious0dp">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="16dp"
+
+                android:layout_weight="1"
+                app:cardCornerRadius="16dp"
+                tools:ignore="Orientation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/img_8"
+                            android:layout_marginTop="15dp"
+                            tools:ignore="UseAppTint">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="KIMYO"
+                            android:textColor="#4CAF50"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bt5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="16dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="16dp"
+
+                tools:ignore="NestedWeights,Orientation">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/maystrelka"
+
+                        >
+                        <ImageView
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/info_2"
+                            android:tint="#662196F3"
+
+                            android:layout_marginTop="15dp"
+                            tools:ignore="UseAppTint">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="INFO"
+                            android:textColor="#8BC34A"
+                            android:gravity="center"
+                            tools:ignore="HardcodedText"
+                            android:textStyle="bold"
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <FrameLayout
+            android:layout_width="320dp"
+            android:layout_height="230dp"
+            android:id="@+id/frem"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+
+
+            android:background="@drawable/dialog">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siz rostanxam oyini tark etmoqchimisiz"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:gravity="top|center"
+                tools:ignore="HardcodedText">
+
+            </TextView>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom|start"
+                android:backgroundTint="#D5CBC1"
+                android:layout_marginHorizontal="8dp"
+                android:layout_marginVertical="8dp"
+                android:text="YOQ"
+                android:id="@+id/no"
+                >
+
+            </Button>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:id="@+id/yes"
+                android:layout_gravity="bottom|end"
+                android:backgroundTint="#D5CBC1"
+                android:layout_marginHorizontal="8dp"
+                android:text="HA"
+                android:layout_marginVertical="8dp"
+                >
+
+            </Button>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

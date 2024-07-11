@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuestionTest</string>
+    <string name="ona_tili">ONA_TILI</string>
+    <string name="ingilis_tili">INGILIS_TILI</string>
+    <string name="informatika">INFORMATIKA</string>
+    <string name="rus_tili">RUS TILI</string>
+    <string name="adabiyot">ADABIYOT</string>
+</resources>
